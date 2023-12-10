@@ -24,19 +24,19 @@ If you are _NOT_ the correct point of contact for this report, please let me kno
 
 ## Details
 
-The amount of login attempts is not limited
+*Give all details on the vulnerability. Pointing to the incriminated source code is very helpful for the maintainer.*
 
 ## PoC
 
-When attempting to login, you can log in attmept unlimited times in succession.
+*Complete instructions, including specific configuration details, to reproduce the vulnerability*
 
 ## Impact
 
-Without a login attempt limitations, the program is heavily vulnerable to brute force attacks, especially since the programs password requirements are lax.
+[impact]
 
 ## Remediation
 
-By setting a strict limit on log in attempts, the security of the application is greatly enhanced.
+*Propose a remediation suggestion if you have one. Make it clear that this is just a suggestion, as the maintainer might have a better idea to fix the issue.*
 
 ## GitHub Security Advisories
 
@@ -46,13 +46,7 @@ When you use a GitHub Security Advisory, you can request a CVE identification nu
 ## Credit
 
 *List all researchers who contributed to this disclosure.*
-Alice Firewallington
-Bob Encryptenstein
-Sir Spamalot
-Sherlock McVirus
 *If you found the vulnerability with a specific tool, you can also credit this tool.*
-Invisible Firewall Paint Roller
-Holographic Honeytrap Generator
 
 ## Contact
 
