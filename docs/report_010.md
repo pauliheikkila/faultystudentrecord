@@ -24,19 +24,19 @@ If you are _NOT_ the correct point of contact for this report, please let me kno
 
 ## Details
 
-The program has no password policy. Any password of any lenght, or form is acceptable.
+*Give all details on the vulnerability. Pointing to the incriminated source code is very helpful for the maintainer.*
 
 ## PoC
 
-The program will accept any password user inputs as is, and it will not give an error on unsafe passwords.
+*Complete instructions, including specific configuration details, to reproduce the vulnerability*
 
 ## Impact
 
-User using a unsafe password would risk giving an attack vector through an unsafe password.
+[impact]
 
 ## Remediation
 
-Establish password policy, which requires a password of certain lenght, and complexity.
+*Propose a remediation suggestion if you have one. Make it clear that this is just a suggestion, as the maintainer might have a better idea to fix the issue.*
 
 ## GitHub Security Advisories
 
@@ -46,11 +46,8 @@ When you use a GitHub Security Advisory, you can request a CVE identification nu
 ## Credit
 
 *List all researchers who contributed to this disclosure.*
-Captain Jack Sparrow
-All the gone rum.
-
 *If you found the vulnerability with a specific tool, you can also credit this tool.*
-Cybernetic Rubber Ducky of Encryption
+
 ## Contact
 
 [contact]

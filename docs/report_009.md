@@ -24,19 +24,19 @@ If you are _NOT_ the correct point of contact for this report, please let me kno
 
 ## Details
 
-The program has no password policy. Any password of any lenght, or form is acceptable.
+The program has no logging feature. Security events, such as failed login attempts, are not logged.
 
 ## PoC
 
-The program will accept any password user inputs as is, and it will not give an error on unsafe passwords.
+The code does not log the information handled or passed through it.
 
 ## Impact
 
-User using a unsafe password would risk giving an attack vector through an unsafe password.
+Any security event gone unnoticed is nearly impossible to track and investigate, if they are not logged.
 
 ## Remediation
 
-Establish password policy, which requires a password of certain lenght, and complexity.
+Establish a logging feature, which logs all the log ins, changes made and other security related events.
 
 ## GitHub Security Advisories
 
@@ -46,11 +46,13 @@ When you use a GitHub Security Advisory, you can request a CVE identification nu
 ## Credit
 
 *List all researchers who contributed to this disclosure.*
-Captain Jack Sparrow
-All the gone rum.
+Angus McCyber
+Cybernetic Disco Defender
 
 *If you found the vulnerability with a specific tool, you can also credit this tool.*
-Cybernetic Rubber Ducky of Encryption
+Cybernetic Swiss Army Knife
+Pixel-Powered Privacy Parasol
+
 ## Contact
 
 [contact]

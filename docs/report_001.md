@@ -32,11 +32,11 @@ Use any input field to inject SQL-code into the input
 
 ## Impact
 
-[possible to edit or destroy the database in its entirity.]
+Possible to edit or destroy the database in its entirity
 
 ## Remediation
 
-*Harden all user inputs so they only submit string, without it being interpreted as SQL-code*
+Harden and validate all user inputs so they only submit string, without it being interpreted as SQL-code
 
 ## GitHub Security Advisories
 

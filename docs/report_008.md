@@ -24,19 +24,19 @@ If you are _NOT_ the correct point of contact for this report, please let me kno
 
 ## Details
 
-The program has no password policy. Any password of any lenght, or form is acceptable.
+There is no account lockout feature, which would lock the account which has too many login attempts.
 
 ## PoC
 
-The program will accept any password user inputs as is, and it will not give an error on unsafe passwords.
+Log ins can be attempted as many time as wished, without the account being locked.
 
 ## Impact
 
-User using a unsafe password would risk giving an attack vector through an unsafe password.
+This makes the program and database vulnerable to brute-force attacks.
 
 ## Remediation
 
-Establish password policy, which requires a password of certain lenght, and complexity.
+Establish a fixed amount of tries for log in attempts and then lock the account if the limit is exceeded.
 
 ## GitHub Security Advisories
 
@@ -46,11 +46,14 @@ When you use a GitHub Security Advisory, you can request a CVE identification nu
 ## Credit
 
 *List all researchers who contributed to this disclosure.*
-Captain Jack Sparrow
-All the gone rum.
+Firewall Flamingo
+Encryption Unicorn Wrangler
+Sir Encrypt-a-Lot
 
 *If you found the vulnerability with a specific tool, you can also credit this tool.*
-Cybernetic Rubber Ducky of Encryption
+Teleporting Trojan Horse Transporter
+AI-Powered Rubber Chicken Detector
+
 ## Contact
 
 [contact]
