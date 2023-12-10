@@ -1,0 +1,4 @@
+
+
+3.opiskelija taulussa ei id:tä
+4.Käyttäjälle näytettävät virheviestit
